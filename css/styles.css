@@ -63,6 +63,13 @@ body {
   font-weight: bold;
   text-shadow: 1px 1px 1px white;
 }
+.jumbotron h3 {
+  text-align: center;
+  color: #000000;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px white;
+  margin: 0 0 15px;
+}
 .jumbotron p {
   color: #000000;
 }
