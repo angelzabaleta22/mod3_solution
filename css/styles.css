@@ -28,24 +28,19 @@ body {
 .navbar-brand h1 {
   font-family: Arial, Helvetica, sans-serif;
   color: #a58a46;
-  font-size: 1.5em;
+  font-size: 1.8em;
   text-transform: uppercase;
   font-weight: bold;
   text-shadow: 1px 1px 1px #222;
-  margin-top: 0;
-  margin-bottom: 0;
-  line-height: 0.75;
+  margin: 0 30px;
 }
 
 .navbar-brand a {
   text-decoration: none;
 }
 
-.navbar-brand h1 {
-  margin: 0 30px;
-}
 .navbar-toggle {
-  margin: 20px 30px 0;
+  margin: 25px 30px 0;
 }
 
 #nav-list a {
@@ -61,6 +56,12 @@ body {
 
 #header-nav button {
   border-color: #a58a46;
+}
+.title h2 {
+  text-align: center;
+  color: #000000;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px white;
 }
 .jumbotron p {
   color: #000000;
