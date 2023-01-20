@@ -1,3 +1,86 @@
-* {
-  box-sizing: border-box;
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #aca7a7;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#header-nav {
+  background-color: #19f6c3;
+  border-radius: 0;
+  border: 0;
+}
+
+.container {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.visible-xs {
+  background-color: #a58a46;
+}
+
+.navbar-brand {
+  padding-top: 30px;
+  height: 80px;
+}
+.navbar-brand h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #a58a46;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 0.75;
+}
+
+.navbar-brand a {
+  text-decoration: none;
+}
+
+.navbar-brand h1 {
+  margin: 0 30px;
+}
+.navbar-toggle {
+  margin: 20px 30px 0;
+}
+
+#nav-list a {
+  color: #000000;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #e7e7e7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+#header-nav button {
+  border-color: #a58a46;
+}
+.jumbotron p {
+  color: #000000;
+}
+.container-fluid .jumbotron {
+  box-shadow: 0 0 50px #0f0f0f;
+  border: 2px solid #aca7a7;
+  margin: 25px;
+  background-color: #19f6c3;
+}
+
+#collapsable-nav a {
+  font-size: 1.2em;
+}
+#collapsable-nav a span {
+  font-size: 1em;
+  margin-right: 5px;
+}
+@media (max-width: 768px) {
+  .jumbotron p {
+    margin: 25px;
+  }
 }
